@@ -1,0 +1,5 @@
+require("setup")
+require("plugins")
+require("core.colorscheme")
+require("core.keymaps")
+require("core.settings")
