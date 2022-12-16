@@ -82,7 +82,12 @@ return require("packer").startup(function(use)
 	use("jayp0521/mason-null-ls.nvim")
 
 	-- git
-	use("lewis6991/gitsigns.nvim")
+	use({
+		"lewis6991/gitsigns.nvim",
+		config = function()
+			require("gitsigns").setup()
+		end,
+	})
 
 	if packer_bootstrap then
 		require("packer").sync()
