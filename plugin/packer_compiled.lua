@@ -109,10 +109,10 @@ _G.packer_plugins = {
     path = "/Users/alexis/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
-  ["gruvbox.nvim"] = {
+  ["jellybeans.vim"] = {
     loaded = true,
-    path = "/Users/alexis/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
-    url = "https://github.com/ellisonleao/gruvbox.nvim"
+    path = "/Users/alexis/.local/share/nvim/site/pack/packer/start/jellybeans.vim",
+    url = "https://github.com/nanotech/jellybeans.vim"
   },
   ["lspkind.nvim"] = {
     loaded = true,

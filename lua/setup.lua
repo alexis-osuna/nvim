@@ -22,7 +22,7 @@ return require("packer").startup(function(use)
 	use("wbthomason/packer.nvim")
 
 	-- colorschemes
-	use("ellisonleao/gruvbox.nvim")
+	use("nanotech/jellybeans.vim")
 
 	-- essentials
 	use({
