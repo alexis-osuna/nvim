@@ -16,6 +16,11 @@ opt.wrap = false
 -- search
 opt.ignorecase = true
 opt.smartcase = true
+opt.hlsearch = false
+opt.incsearch = true
+
+-- scroll
+opt.scrolloff = 8
 
 -- appearance
 opt.signcolumn = "yes"
